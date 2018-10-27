@@ -7,7 +7,7 @@ sudo wget https://raw.githubusercontent.com/JustHumanz/und/master/und -P /usr/lo
 usage:                              und -d [link] 
 usage download from google drive:   und -g [file_id]
 
-Optional arguments:
+Optional arguments:  \n
     -d, --download  download file
     -c, --check     Check request file
     -s, --speed     Speed test
