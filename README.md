@@ -10,12 +10,12 @@ usage download from google drive:   und -g [file_id] <br />
 
 Optional arguments: <br />
 
-    -d, --download  download file <br />
-    -c, --check     Check request file <br />
-    -s, --speed     Speed test <br />
-    -g,             Downloads from google drive <br />
-    -h, --h, --help show this help message and exit <br />
-    -v, --version   display version <br />
+    -d, --download  download file 
+    -c, --check     Check request file 
+    -s, --speed     Speed test 
+    -g,             Downloads from google drive
+    -h, --h, --help show this help message and exit 
+    -v, --version   display version 
 
 example <br />
 ~> und -d https://speed.hetzner.de/100MB.bin 
