@@ -52,7 +52,7 @@ if [ "$1" == "-g" ] ; then
     exit 0
 elif [[ "$1" == "-d" || "$1" == "-download" ]]; then
   mkdir -p ~/Downloads/aria2 && cd ~/Downloads/aria2
-  aria2c -x 16 -s 16 -d ~/Downloads/aria2 $1
+  aria2c -x 16 -s 16 -d ~/Downloads/aria2 $2
   exit 0
 fi
 echo "usage:                              und -d [link]"
