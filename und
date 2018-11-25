@@ -48,6 +48,7 @@ done
 fi
 
 if [ "$1" == "-g" ] ; then
+    mkdir -p ~/Downloads/aria2 
     gdown https://drive.google.com/uc\?id\=$2 --output ~/Downloads/aria2
     exit 0
 elif [[ "$1" == "-d" || "$1" == "-download" ]]; then
