@@ -36,7 +36,7 @@ done
     if [[ -f /etc/pacman.conf ]]; then
       sudo pacman -S aria2 python3 python-pip --noconfirm && sudo pip3 install gdown speedtest-cli
     elif [[ -f /etc/apt/sources.list ]]; then
-      sudo apt-get install aria2 python3 python3-pip -y && sudo pip3 install gdown speedtest-cli
+      sudo apt-get install aria2 python3 python3-pip -y && sudo pip3 install setuptools gdown speedtest-cli
     elif [[ -f /etc/yum.conf ]]; then
       sudo yum install aria2 epel-release -y && sudo yum update && sudo yum install python34-pip -y && sudo pip3 install gdown speedtest-cli;
     else
