@@ -50,10 +50,12 @@ fi
 if [ "$1" == "-g" ] ; then
     mkdir -p ~/Downloads/aria2 
     gdown https://drive.google.com/uc\?id\=$2 --output ~/Downloads/aria2
+    notify-send "Download finish"
     exit 0
 elif [[ "$1" == "-d" || "$1" == "-download" ]]; then
   mkdir -p ~/Downloads/aria2 && cd ~/Downloads/aria2
   aria2c -x 16 -s 16 -d ~/Downloads/aria2 $2
+  notify-send "Download finish"
   exit 0
 fi
 echo "usage:                              und -d [link]"
